@@ -11,6 +11,6 @@ public class TestController {
 
     @GetMapping("/status")
     public ResponseEntity<String> statusApi() {
-        return ResponseEntity.ok().body("Server is running.......");
+        return ResponseEntity.ok().body("Server is running........");
     }
 }
